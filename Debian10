@@ -1,6 +1,6 @@
 #!/bin/bash
-#VPS Script By   : Oreooo
-#Contact Me TELEGRAM   : https://t.me/Oreooo
+#VPS Script By   : ArashiTeam
+#Contact Me TELEGRAM   : https://t.me/EvoTeamMalaysia
 
 # Check Root
 if [ "${EUID}" -ne 0 ]; then
@@ -20,7 +20,7 @@ green='\e[0;32m'
 NC='\e[0m'
 
 # Requirement
-apt-get install unzip 
+apt-get install unzip wget curl screen
 apt update -y
 apt upgrade -y
 update-grub
